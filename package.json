@@ -1,11 +1,10 @@
 {
-  "name": "react-marquee-slider",
+  "name": "react-marquee-slider-emotion",
   "author": "Maxim Zubarev",
   "license": "MIT",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "The marquee slider of your wildest dreams. Only for React.js ⛺",
-  "homepage": "https://maximzubarev.com/projects/react-marquee-slider",
-  "repository": "https://github.com/mxmzb/react-marquee-slider.git",
+  "repository": "https://github.com/ndom91/react-marquee-slider-emotion.git",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
@@ -15,10 +14,13 @@
     "release": "release-it"
   },
   "peerDependencies": {
-    "lodash": ">=0.1.0",
-    "styled-components": ">=4.0.0"
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "lodash": ">=0.1.0"
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@release-it/conventional-changelog": "^1.1.0",
     "@types/lodash": "^4.14.138",
     "@types/node": "^12.7.12",
@@ -45,7 +47,8 @@
     "marquee",
     "slider",
     "slider-component",
-    "react-component"
+    "react-component",
+    "emotion"
   ],
   "private": false
 }

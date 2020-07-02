@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect, ReactNode, FC } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "@emotion/styled";
+import { keyframes } from "@emotion/core";
 
 const Container = styled.div<{ buffer: number; backgroundColor: string }>`
   display: flex;

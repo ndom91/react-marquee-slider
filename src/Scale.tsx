@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 const Scale = styled.div<{ scale: number }>`
   transform: scale(${props => props.scale});
